@@ -1,0 +1,228 @@
+body{
+margin: 0px;
+}
+
+.container{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+
+}
+.nav{
+    overflow: hidden;
+    margin-top: none;
+    position: relative;
+    top:0;
+    width:100%;
+   
+}
+.nav img{
+    width:6vw;
+    padding-right: 4vw;
+}
+.nav a{
+    float:left;
+    display: block;
+    color:brown;
+    text-align: center;
+    padding:2vh 4vh;
+    text-decoration: none;
+    margin:0;
+}
+.nav a.active{
+    background-color:peachpuff;
+    color:brown;
+}
+.nav a:hover{
+    background-color:papayawhip;
+    color:black;
+
+}
+.nav ul{
+    list-style-type: none;
+}
+@media screen and(max-width: 600px){
+    .nav a:not(:first-child){display: none;}
+}
+.nav img{
+    float:right;
+    margin:0;
+    overflow: hidden;
+}
+.container h1{
+    text-align: center;
+    color: coral;
+   position: relative;
+
+    font-size: 5vw;
+   line-height: 10vw;
+}
+.container h2{
+    text-align:center;
+    color: coral;
+    position: relative;
+    top:5vw;
+}
+.container p{
+    text-align: center;
+    color: coral;
+    position: relative;
+    bottom:3vw;
+    word-spacing:1vw;
+}
+
+
+.grid-container{
+  
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: crimson;
+    height:22vw;
+    grid-template-rows: auto;
+    position: relative;
+}
+.g1{
+    padding: 5vw;
+    font-size: 2vw;
+    text-align: center;
+}
+.g1 p{
+ position: relative;
+ bottom: 3vw;
+ font-size: 2vw;
+}
+.dropdown{
+    float:left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 2vw;
+    border:none;
+    outline:none;
+    color:wheat;
+    background-color: rosybrown;
+    margin:0;
+    min-width:3vw;
+}
+.btn{
+    font-size: 2vw;
+    color:wheat;
+    background-color: rosybrown;
+    margin:0;
+    border:none;
+    outline:none;
+}
+.dropdown-content{
+    display:none;
+    position: relative;
+    background-color:papayawhip;
+    z-index:1;
+}
+.dropdown-content a{
+    float:none;
+    font-size: 2vw;
+    color:peru;
+    text-decoration: none;
+    display:block;
+    text-align: left;
+}
+.dropdown:hover .dropbtn{
+    background-color:silver;
+    color:black;
+}
+.dropdown-content a:hover{
+    background-color:peachpuff;
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+    width:100%;
+    position: relative;
+}
+.container3{
+    height: 35vw;
+    background-color:white;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    z-index: 1;
+}
+.f1{
+    padding: 5vw;
+    text-align: center;
+}
+.f1 img{
+    border-radius: 50%;
+    background-color:peachpuff;
+    size: 2vw;
+    width: 12vw;
+}
+.container3 h3,p{
+    font-size: 15px;
+}
+.container4{
+    height: 20vw;
+    background-image: url("back2.jpg");
+    background-repeat: no-repeat;
+    opacity: 40%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-size: cover;
+}
+.s1{
+    padding: 5vw;
+    text-align: center;
+    font-size: 5vh;
+    line-height: 1vw;
+}
+.container4 p{
+    font-size: 2vw;
+}
+.container5{
+    height:50vw;
+}
+.container5{
+    display: grid;
+    grid-template-columns: 45vw auto;
+    height:60vw;
+    position: relative;
+    overflow: hidden;
+
+}
+.c1{
+    padding-bottom: 50vw;
+   padding-left: 6vw;
+}
+.c1 h3{
+margin-block-start: 5vw;
+color:crimson;
+}
+.c1 img{
+    height:62vw;
+    width:40vw;
+   
+}
+.c2 img{
+    background-color:peachpuff ;
+    border-radius: 50%;
+    width:6vw;
+    height:6vw;
+}
+.c2{
+    margin-top: 3vw;
+}
+.container6{
+    text-align: center;
+    height:20vw;
+    padding-top: 1px;
+   
+}
+.container6 h3{
+    padding-top: 4vw;
+    color: crimson;
+}
