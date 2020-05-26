@@ -1,2 +1,2 @@
 # TopModel
-simple one webpage to practice html and css
+simple webpage using html and css
