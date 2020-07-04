@@ -3,7 +3,7 @@ margin: 0px;
 }
 
 .container{
-    background-image: url("back.jpg");
+    background-image: url("images/back.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
@@ -164,7 +164,7 @@ margin: 0px;
 }
 .container4{
     height: 20vw;
-    background-image: url("back2.jpg");
+    background-image: url("images/back2.jpg");
     background-repeat: no-repeat;
     opacity: 40%;
     display: grid;
